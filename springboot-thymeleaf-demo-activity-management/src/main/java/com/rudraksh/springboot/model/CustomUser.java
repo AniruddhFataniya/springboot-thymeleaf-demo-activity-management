@@ -49,18 +49,7 @@ public class CustomUser {
 	
 	private Collection<Role> roles;
 	
-	/*@OneToMany(targetEntity = Activity.class,cascade = CascadeType.ALL)
-	@JoinColumn(name="user_fk", referencedColumnName="id")
-	List<Activity> activities = new ArrayList<>();*/
-	
-	
-	/*public List<Activity> getActivities() {
-		return activities;
-	}
 
-	public void setActivities(List<Activity> activities) {
-		this.activities = activities;
-	}*/
 
 	public CustomUser() {
 		

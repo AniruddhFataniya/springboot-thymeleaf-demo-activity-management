@@ -70,10 +70,7 @@ public class Activity{
 		this.deadLine = deadLine;
 	}
 
-	/*@ManyToOne
-	@JoinColumn(name="user_id")
-	private User user;*/
-	
+
 	public CustomUser getUser() {
 		return user;
 	}
@@ -116,13 +113,7 @@ public class Activity{
 		this.activityDesc = activityDesc;
 	}
 
-//	public User getUser() {
-//		return user;
-//	}
-//
-//	public void setUser(User user) {
-//		this.user = user;
-//	}
+
 	
 	
 	

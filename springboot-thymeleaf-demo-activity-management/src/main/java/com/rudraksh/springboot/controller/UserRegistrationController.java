@@ -94,7 +94,7 @@ public class UserRegistrationController {
         }
 		
 		userService.saveTeacher(registrationDto);
-		return "redirect:/login";
+		return "redirect:/";
 		
 	}
 	@PostMapping("/updateTeacher")

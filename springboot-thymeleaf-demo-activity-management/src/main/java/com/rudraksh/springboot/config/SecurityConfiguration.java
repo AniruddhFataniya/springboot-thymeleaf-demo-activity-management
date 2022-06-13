@@ -46,14 +46,13 @@ public class SecurityConfiguration extends WebSecurityConfigurerAdapter {
 		
 		//.anyRequest().authenticated()
 	.antMatchers(
-				 "/registration**",
+				 "/registration**","/saveTeacher/**","/saveStudent/**",
 	                "/js/**",
 	                "/css/**",
 	                "/img/**"
 	                ).permitAll()
 	.antMatchers("/home/**",
-			 "/saveTeacher/**",
-			  "/saveStudent/**",
+
 			  "/updateTeacher/**",
 			   "/updateStudent/**",
 			   "/saveActivity/**",
